@@ -1,0 +1,52 @@
+# Org.OpenAPITools.Model.VmAnalyticsResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**VmId** | **int** | ID of VM | [optional] 
+**Timecode** | **string** |  | [optional] 
+**AvgDateStart** | **string** | Start of the period for average value calculation | [optional] 
+**AvgDateEnd** | **string** | End of the period for average value calculation | [optional] 
+**QuantilesDateStart** | **string** | Start of the period for percentile value calculation | [optional] 
+**QuantilesDateEnd** | **string** | End of the period for percentile value calculation | [optional] 
+**CpuDataPresent** | **int** | Internal service parameter | [optional] 
+**CpuUtilizationAverageCores** | **decimal** | CPU utilization with values in range [0, 100*vCPUs] | [optional] 
+**CpuUtilizationAverageCoresQ10** | **decimal** | 10th percentile of CPU utilization | [optional] 
+**CpuUtilizationAverageCoresQ90** | **decimal** | 90th percentile of CPU utilization | [optional] 
+**CpuCoresNumber** | **int** | Total CPU, vCPUs | [optional] 
+**CpuTotalPercent** | **int** | Total CPU, % | [optional] 
+**CpuHumanLabel** | **string** | Label | [optional] 
+**RamDataPresent** | **int** | Internal service parameter | [optional] 
+**RamUsageAverageMb** | **decimal** | Memory utilization | [optional] 
+**RamUsageAverageMbQ10** | **decimal** | 10th percentile of memory utilization | [optional] 
+**RamUsageAverageMbQ90** | **decimal** | 90th percentile of memory utilization | [optional] 
+**RamTotalAmountMb** | **int** | Total memory, MB | [optional] 
+**RamHumanLabel** | **string** | Label | [optional] 
+**DiskUsedDataPresent** | **int** | Internal service parameter | [optional] 
+**DiskSpaceUsedGb** | **decimal** | Disk utilization | [optional] 
+**DiskSpaceUsedGbQ10** | **decimal** | 10th percentile of disk utilization | [optional] 
+**DiskSpaceUsedGbQ90** | **decimal** | 90th percentile of disk utilization | [optional] 
+**DiskSpaceTotalGb** | **decimal** | Total disk size, GB | [optional] 
+**DiskSpaceHumanLabel** | **string** | Label | [optional] 
+**DiskWriteDataPresent** | **int** | Internal service parameter | [optional] 
+**DiskWriteBps** | **decimal** | Disk write, bps | [optional] 
+**DiskWriteHuman** | **decimal** | Disk write | [optional] 
+**DiskWriteHumanLabel** | **string** | Label | [optional] 
+**DiskReadDataPresent** | **int** | Internal service parameter | [optional] 
+**DiskReadBps** | **decimal** | Disk read, bps | [optional] 
+**DiskReadHuman** | **decimal** | Disk read | [optional] 
+**DiskReadHumanLabel** | **string** | Label | [optional] 
+**NetworkOutDataPresent** | **int** | Internal service parameter | [optional] 
+**NetworkOutBps** | **decimal** | Network out, bps | [optional] 
+**NetworkOutHuman** | **decimal** | Network out | [optional] 
+**NetworkOutHumanLabel** | **string** | Label | [optional] 
+**NetworkInDataPresent** | **int** | Internal service parameter | [optional] 
+**NetworkInBps** | **decimal** | Network in, bps | [optional] 
+**NetworkInHuman** | **decimal** | Network in | [optional] 
+**NetworkInHumanLabel** | **string** | Label | [optional] 
+**IsShownShort** | **int** | Internal service parameter | [optional] 
+**Type** | **string** | Dataset type | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,52 @@
+# Org.OpenAPITools.Model.VmMonitoringResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Timecode** | **string** |  | [optional] 
+**CpuDataPresent** | **int** | Internal service parameter | [optional] 
+**CpuUtilizationAverageCores** | **decimal** | CPU utilization with values in range [0, 100*vCPUs] | [optional] 
+**AvgCpuUtilizationAverageCores** | **decimal** | Average CPU utilization for the requested period of statistics | [optional] 
+**MaxCpuUtilizationAverageCores** | **decimal** | Maximum CPU utilization for the requested period of statistics | [optional] 
+**CpuTotalPercent** | **int** | Total CPU, % | [optional] 
+**CpuHumanLabel** | **string** | Label | [optional] 
+**RamDataPresent** | **int** | Internal service parameter | [optional] 
+**RamUsageAverageGb** | **decimal** | Memory utilization | [optional] 
+**AvgRamUsageAverageGb** | **decimal** | Average memory utilization for the requested period of statistics | [optional] 
+**MaxRamUsageAverageGb** | **decimal** | Maximum memory utilization for the requested period of statistics | [optional] 
+**RamTotalAmountGb** | **decimal** | Total memory, GB | [optional] 
+**RamHumanLabel** | **string** | Label | [optional] 
+**DiskUsedDataPresent** | **int** | Internal service parameter | [optional] 
+**DiskSpaceUsedGb** | **decimal** | Disk utilization | [optional] 
+**AvgDiskSpaceUsedGb** | **decimal** | Average disk utilization for the requested period of statistics | [optional] 
+**MaxDiskSpaceUsedGb** | **decimal** | Maximum disk utilization for the requested period of statistics | [optional] 
+**DiskSpaceTotalGb** | **int** | Total disk size, GB | [optional] 
+**DiskSpaceHumanLabel** | **string** | Label | [optional] 
+**DiskWriteDataPresent** | **int** | Internal service parameter | [optional] 
+**DiskWriteCoef** | **decimal** | Internal service parameter | [optional] 
+**DiskWriteHuman** | **decimal** | Disk write | [optional] 
+**AvgDiskWriteHuman** | **decimal** | Average disk write for the requested period of statistics | [optional] 
+**MaxDiskWriteHuman** | **decimal** | Maximum disk write for the requested period of statistics | [optional] 
+**DiskWriteHumanLabel** | **string** | Label | [optional] 
+**DiskReadDataPresent** | **int** | Internal service parameter | [optional] 
+**DiskReadCoef** | **decimal** | Internal service parameter | [optional] 
+**DiskReadHuman** | **decimal** | Disk read | [optional] 
+**AvgDiskReadHuman** | **decimal** | Average disk read for the requested period of statistics | [optional] 
+**MaxDiskReadHuman** | **decimal** | Maximum disk read for the requested period of statistics | [optional] 
+**DiskReadHumanLabel** | **string** | Label | [optional] 
+**NetworkOutDataPresent** | **int** | Internal service parameter | [optional] 
+**NetworkOutCoef** | **decimal** | Internal service parameter | [optional] 
+**NetworkOutHuman** | **decimal** | Network out | [optional] 
+**AvgNetworkOutHuman** | **decimal** | Average network out for the requested period of statistics | [optional] 
+**MaxNetworkOutHuman** | **decimal** | Maximum network out for the requested period of statistics | [optional] 
+**NetworkOutHumanLabel** | **string** | Label | [optional] 
+**NetworkInDataPresent** | **int** | Internal service parameter | [optional] 
+**NetworkInCoef** | **decimal** | Internal service parameter | [optional] 
+**NetworkInHuman** | **decimal** | Network in | [optional] 
+**AvgNetworkInHuman** | **decimal** | Average network in for the requested period of statistics | [optional] 
+**MaxNetworkInHuman** | **decimal** | Maximum network in for the requested period of statistics | [optional] 
+**NetworkInHumanLabel** | **string** | Label | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
